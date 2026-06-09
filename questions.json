@@ -1,0 +1,107 @@
+[
+  {
+    "question": "Look at the picture. What is it?",
+    "image": "gambar/001.jpg",
+    "options": ["a bird", "a cow", "a cat"],
+    "answer": "a cow"
+  },
+  {
+    "question": "What is this?",
+    "image": "gambar/002.jpg",
+    "options": ["a cat", "a goat", "a rabbit"],
+    "answer": "a rabbit"
+  },
+  {
+    "question": "Look at the picture. What animal is it?",
+    "image": "gambar/003.jpg",
+    "options": ["a hen", "a cat", "a duck"],
+    "answer": "a cat"
+  },
+  {
+    "question": "What are these?",
+    "image": "gambar/004.jpg",
+    "options": ["goat", "ducks", "bird"],
+    "answer": "goat"
+  },
+  {
+    "question": "Look at the picture. What is this?",
+    "image": "gambar/005.jpg",
+    "options": ["a cow", "a duck", "a giraffe"],
+    "answer": "a giraffe"
+  },
+  {
+    "question": "Apa bahasa Inggrisnya sapi?",
+    "options": ["Cat", "Cow", "Rabbit"],
+    "answer": "Cow"
+  },
+  {
+    "question": "Rabbit artinya ....",
+    "options": ["Kelinci", "Kucing", "Kambing"],
+    "answer": "Kelinci"
+  },
+  {
+    "question": "Apa bahasa Inggrisnya jerapah?",
+    "options": ["Goat", "Cat", "Giraffe"],
+    "answer": "Giraffe"
+  },
+  {
+    "question": "Cat artinya ....",
+    "options": ["Kucing", "Sapi", "Kelinci"],
+    "answer": "Kucing"
+  },
+  {
+    "question": "Apa bahasa Inggrisnya kambing?",
+    "options": ["Goat", "Cow", "Cat"],
+    "answer": "Goat"
+  },
+  {
+    "question": "Bahasa Arab dari warna hijau adalah ....",
+    "options": ["Asfaru", "Akhdoru", "Ahmarun"],
+    "answer": "Akhdoru"
+  },
+  {
+    "question": "Aswadun artinya ....",
+    "options": ["Hitam", "Kuning", "Putih"],
+    "answer": "Hitam"
+  },
+  {
+    "question": "Bahasa Arab dari warna putih adalah ....",
+    "options": ["Abyadun", "Ahmarun", "Asfaru"],
+    "answer": "Abyadun"
+  },
+  {
+    "question": "Asfaru artinya ....",
+    "options": ["Hijau", "Merah", "Kuning"],
+    "answer": "Kuning"
+  },
+  {
+    "question": "Bahasa Arab dari warna merah adalah ....",
+    "options": ["Akhdoru", "Ahmarun", "Aswadun"],
+    "answer": "Ahmarun"
+  },
+  {
+    "question": "Akhdoru artinya ....",
+    "options": ["Hijau", "Putih", "Hitam"],
+    "answer": "Hijau"
+  },
+  {
+    "question": "Abyadun artinya ....",
+    "options": ["Kuning", "Putih", "Merah"],
+    "answer": "Putih"
+  },
+  {
+    "question": "Bahasa Arab dari warna hitam adalah ....",
+    "options": ["Asfaru", "Akhdoru", "Aswadun"],
+    "answer": "Aswadun"
+  },
+  {
+    "question": "Ahmarun artinya ....",
+    "options": ["Merah", "Hijau", "Putih"],
+    "answer": "Merah"
+  },
+  {
+    "question": "Bahasa Arab dari warna kuning adalah ....",
+    "options": ["Abyadun", "Asfaru", "Aswadun"],
+    "answer": "Asfaru"
+  }
+]
