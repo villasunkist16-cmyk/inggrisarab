@@ -164,28 +164,38 @@ body{
 
 .option-btn{
 
-    width:100%;
+    width:90%;
 
-    background:#f57c00;
+    margin:0 auto;
 
-    color:white;
+    height:110px;
+
+    background:url("bg-pilihan.png") center center no-repeat;
+
+    background-size:100% 100%;
+
+    background-color:transparent;
 
     border:none;
 
-    border-radius:24px;
+    box-shadow:none;
 
-    padding:25px;
+    outline:none;
 
-    font-size:48px;
+    font-size:32px;
 
     font-weight:700;
 
+    color:#ffffff;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
     cursor:pointer;
 
-    box-shadow:
-    0 8px 20px rgba(0,0,0,.18);
-
-    transition:.2s;
 }
 
 .option-btn:hover{
@@ -380,7 +390,9 @@ body{
 
         font-size:24px;
 
-        padding:18px;
+        padding:0;
+
+        height:95px;
     }
 
     .footer{
@@ -440,7 +452,11 @@ body{
     }
 
     .option-btn{
-        font-size:20px;
+       font-size:24px;
+
+        padding:0;
+
+        height:95px;
     }
 
     .score-box{
