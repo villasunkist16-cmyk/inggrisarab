@@ -97,6 +97,8 @@ body{
 
 #question-number{
 
+    margin-top:25px;
+    
     color:#111827;
 
     font-size:32px;
@@ -160,7 +162,7 @@ body{
 
     flex-direction:column;
 
-    gap:12px;
+    gap:8px;
 }
 
 .option-btn{
@@ -169,7 +171,7 @@ body{
 
     margin:0 auto;
 
-    height:110px;
+    height:90px;
 
     background:url("btn-pilihan.png") center center no-repeat;
 
@@ -183,7 +185,7 @@ body{
 
     outline:none;
 
-    font-size:32px;
+    font-size:30px;
 
     font-weight:700;
 
@@ -222,7 +224,7 @@ body{
 /* FOOTER */
 /* ====================== */
 
-..footer{
+.footer{
 
     margin-top:20px;
 
@@ -256,18 +258,18 @@ body{
 
     position:relative;
 
-    width:280px;
+    width:180px;
 
-    height:90px;
+    height:auto;
+
+    flex-shrink:0;
 }
 
-.score-bg{
+.score-box img{
 
     width:100%;
 
-    height:100%;
-
-    object-fit:contain;
+    display:block;
 }
 
 #score{
@@ -276,19 +278,18 @@ body{
 
     top:50%;
 
-    right:35px;
+    left:72%;
 
-    transform:translateY(-50%);
+    transform:translate(-50%,-50%);
 
-    font-size:42px;
+    font-size:32px;
 
     font-weight:700;
 
     color:#000;
 
-    min-width:80px;
-
-    text-align:center;
+    text-shadow:
+    2px 2px 4px rgba(255,255,255,.5);
 }
 
 #actionBtn{
@@ -335,18 +336,6 @@ body{
 
 #actionBtn:hover{
     transform:translateY(-2px);
-}
-
-.score-box{
-
-    width:250px;
-    height:80px;
-
-    background-image:url("score-bar.png");
-
-    background-size:100% 100%;
-
-    position:relative;
 }
 
 #nextBtn{
@@ -436,7 +425,7 @@ body{
 
     text-align:center;
 
-    font-size:48px;
+    font-size:36px;
 
     font-weight:700;
 
@@ -454,11 +443,11 @@ body{
 
     .option-btn{
 
-        font-size:24px;
+        font-size:22px;
 
         padding:0;
 
-        height:72px;
+        height:65px;
     }
 
     .footer{
@@ -480,8 +469,17 @@ body{
 
     .score-box{
 
-        font-size:30px;
+        width:120px;
     }
+
+    #score{
+
+        font-size:22px;
+
+        left:74%;
+    }
+
+}
 
     #startBtn{
 
@@ -509,7 +507,7 @@ body{
 #actionBtn:hover{
     transform:scale(1.05);
 }
-}
+
 
 /* ====================== */
 /* HP KECIL */
