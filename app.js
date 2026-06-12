@@ -143,7 +143,7 @@ function showQuestion() {
     questions[currentQuestion];
 
     questionNumberEl.textContent =
-    `Soal ${currentQuestion + 1} dari ${questions.length}`;
+    `${currentQuestion + 1}/${questions.length}`;   
 
     questionEl.textContent =
     q.question;
@@ -381,6 +381,8 @@ function gameFinished() {
     `Selamat!<br><br>Skor Kamu: ${score}`;
 
     optionsEl.innerHTML = "";
+
+    actionBtn.style.display = "block";
 
     setButtonImage("main-lagi.png");
 

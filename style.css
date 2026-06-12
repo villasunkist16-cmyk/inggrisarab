@@ -92,6 +92,7 @@ body{
     margin:auto;
 
     padding:20px;
+    padding-bottom:140px;
 }
 
 #question-number{
@@ -159,7 +160,7 @@ body{
 
     flex-direction:column;
 
-    gap:20px;
+    gap:12px;
 }
 
 .option-btn{
@@ -170,7 +171,7 @@ body{
 
     height:110px;
 
-    background:url("bg-pilihan.png") center center no-repeat;
+    background:url("btn-pilihan.png") center center no-repeat;
 
     background-size:100% 100%;
 
@@ -205,21 +206,38 @@ body{
 
 .correct{
 
-    background:#16a34a !important;
+    background-image:url("btn-benar.png") !important;
+
+    color:white;
 }
 
 .wrong{
 
-    background:#dc2626 !important;
+    background-image:url("btn-salah.png") !important;
+
+    color:white;
 }
 
 /* ====================== */
 /* FOOTER */
 /* ====================== */
 
-.footer{
+..footer{
 
-    margin-top:25px;
+    margin-top:20px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+    position:fixed;
+
+    left:20px;
+
+    right:20px;
+
+    bottom:20px;
 
     display:flex;
 
@@ -227,7 +245,50 @@ body{
 
     align-items:center;
 
-    gap:20px;
+    z-index:999;
+}
+
+/* ===================== */
+/* SCORE */
+/* ===================== */
+
+.score-box{
+
+    position:relative;
+
+    width:280px;
+
+    height:90px;
+}
+
+.score-bg{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:contain;
+}
+
+#score{
+
+    position:absolute;
+
+    top:50%;
+
+    right:35px;
+
+    transform:translateY(-50%);
+
+    font-size:42px;
+
+    font-weight:700;
+
+    color:#000;
+
+    min-width:80px;
+
+    text-align:center;
 }
 
 #actionBtn{
@@ -278,15 +339,14 @@ body{
 
 .score-box{
 
-    flex:1;
+    width:250px;
+    height:80px;
 
-    text-align:center;
+    background-image:url("score-bar.png");
 
-    font-size:48px;
+    background-size:100% 100%;
 
-    font-weight:700;
-
-    color:#111827;
+    position:relative;
 }
 
 #nextBtn{
@@ -374,9 +434,15 @@ body{
 
     #question-number{
 
-        text-align:center;
+    text-align:center;
 
-        font-size:24px;
+    font-size:48px;
+
+    font-weight:700;
+
+    color:white;
+
+    margin:20px 0;
     }
 
     #question{
@@ -392,14 +458,18 @@ body{
 
         padding:0;
 
-        height:95px;
+        height:72px;
     }
 
     .footer{
 
-        flex-direction:column;
+        display:flex;
 
-        gap:15px;
+        justify-content:space-between;
+
+        align-items:center;
+
+        margin-top:20px;
     }
 
     #speakBtn,
