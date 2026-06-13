@@ -271,7 +271,7 @@ body{
 
     top:50%;
 
-    left:63%;
+    left:70%;
     
     transform:translate(-50%,-50%);
 
@@ -470,7 +470,7 @@ body{
 
         font-size:22px;
 
-        left:63%;
+        left:70%;
     }
 
 }
