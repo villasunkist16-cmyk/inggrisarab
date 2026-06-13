@@ -1,138 +1,92 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-
     <meta charset="UTF-8">
-
-    <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     <title>Cerdas Cermat Bersama Apih Bobby</title>
 
-    <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
-    <!-- ===================== -->
-    <!-- OPENING SCREEN -->
-    <!-- ===================== -->
-
-    <!-- OPENING SCREEN -->
+<!-- OPENING SCREEN -->
 <div id="startScreen" class="start-screen">
 
-    <img
-        src="opening.jpg"
-        class="opening-image"
-        alt="Opening">
+    <img src="opening.jpg"
+         class="opening-image"
+         alt="Opening">
 
     <button id="startBtn" class="play-btn">
-
-        <img
-            src="play.png"
-            alt="Play">
-
+        <img src="play.png" alt="Play">
     </button>
-
 
 </div>
 
-    <!-- ===================== -->
-    <!-- GAME SCREEN -->
-    <!-- ===================== -->
+<!-- GAME SCREEN -->
+<div id="gameScreen" style="display:none;">
 
-    <div id="gameScreen" style="display:none;">
+    <div class="container">
 
-        <div class="container">
-
-            <!-- Nomor Soal -->
+        <!-- Header -->
+        <div class="top-bar">
 
             <div id="question-number">
-                Soal 1 dari 20
+                1/20
             </div>
 
-            <!-- Pertanyaan -->
+            <div class="score-box">
+                <img src="score-bar.png">
+                <span id="score">0</span>
+            </div>
 
-            <div class="question-box">
+        </div>
 
-    <img
-        id="questionImage"
-        class="question-image"
-        src=""
-        alt="Soal"
-        style="display:none;">
+        <!-- Soal -->
+        <div class="question-box">
 
-    <div id="question">
-        Memuat soal...
-    </div>
+            <img
+                id="questionImage"
+                class="question-image"
+                src=""
+                alt="Soal"
+                style="display:none;">
 
-</div>
+            <div id="question">
+                Memuat soal...
+            </div>
 
-            <!-- Pilihan Jawaban -->
+        </div>
 
-            <div id="options" class="options"></div>
+        <!-- Pilihan -->
+        <div id="options" class="options"></div>
 
-            <!-- Footer -->
+        <!-- Tombol -->
+        <div class="footer">
 
-            <div class="footer">
-
-    <!-- Tombol Ulangi / Next -->
-    <button id="actionBtn">
-        <img
-            id="actionBtnImg"
-            src="ulangi-soal.png"
-            alt="Action Button">
-    </button>
-
-    <!-- Score -->
-    <div class="score-box">
-
-        <img
-            class="score-bg"
-            src="score-bar.png"
-            alt="Score">
-
-        <span id="score">0</span>
-
-    </div>
-
-</div>
+            <button id="actionBtn">
+                <img
+                    id="actionBtnImg"
+                    src="ulangi-soal.png"
+                    alt="Action Button">
+            </button>
 
         </div>
 
     </div>
 
-    <!-- ===================== -->
-    <!-- AUDIO -->
-    <!-- ===================== -->
+</div>
 
-    <!-- Musik Opening -->
+<!-- AUDIO -->
+<audio id="openingMusic" src="opening.mp3" loop></audio>
 
-    <audio
-        id="openingMusic"
-        src="opening.mp3"
-        loop>
-    </audio>
+<audio id="bgMusic" src="bgm.mp3" loop></audio>
 
-    <!-- Musik Game -->
-
-    <audio
-        id="bgMusic"
-        src="bgm.mp3"
-        loop>
-    </audio>
-
-    <!-- ===================== -->
-    <!-- JAVASCRIPT -->
-    <!-- ===================== -->
-
-    <script src="app.js"></script>
+<script src="app.js"></script>
 
 </body>
 </html>
