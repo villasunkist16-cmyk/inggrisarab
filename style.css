@@ -483,9 +483,10 @@ body{
         padding:18px 50px;
     }
     #actionBtn{
-    width:280px;
+    width:220px;
     height:70px;
-
+    margin:auto;
+    display:block;
     border:none;
     background:none;
 
