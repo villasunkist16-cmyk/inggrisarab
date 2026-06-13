@@ -71,23 +71,6 @@ function playAudio(src, callback = null){
 
 }
 
-window.addEventListener("load", () => {
-
-   setTimeout(() => {
-
-    actionBtn.style.display = "block";
-
-    setButtonImage("next.png");
-
-    actionBtn.onclick = () => {
-
-        nextQuestion();
-
-    };
-
-}, 3000);
-});
-
 /* ========================= */
 /* START */
 /* ========================= */
