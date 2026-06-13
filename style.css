@@ -308,11 +308,8 @@ body{
 }
 
 #actionBtn img{
-
-    width:320px;
-
+    width:100%;
     height:auto;
-
     display:block;
 
     transition:.2s;
@@ -408,8 +405,9 @@ body{
 @media(max-width:768px){
 
     #actionBtn img{
-
-    width:240px;
+    width:100%;
+    height:auto;
+    display:block;
 }
     .container{
         padding:15px;
@@ -482,13 +480,13 @@ body{
 
         padding:18px 50px;
     }
-    #actionBtn{
+#actionBtn{
     width:220px;
-    height:40px;
-    margin:auto;
+    height:auto;
+    margin:0 auto;
     display:block;
-    border:none;
     background:none;
+    border:none;
 
     cursor:pointer;
 
