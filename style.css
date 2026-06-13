@@ -368,8 +368,8 @@ body{
         font-size:36px;
     }
     #actionBtn{
-    width:280px;
-    height:40px;
+    width:180px;
+    height:auto;
 
     border:none;
     background:none;
