@@ -235,18 +235,13 @@ body{
 
 .footer{
 
-    position:fixed;
-
-    left:0;
-
-    right:0;
-
-    bottom:20px;
-
     display:flex;
-
     justify-content:center;
+    align-items:center;
 
+    margin-top:20px;
+
+    position:static;
     z-index:999;
 }
 
@@ -424,7 +419,7 @@ body{
 
     text-align:center;
 
-    font-size:36px;
+    font-size:20px;
 
     font-weight:700;
 
@@ -475,7 +470,7 @@ body{
 
         font-size:22px;
 
-        left:74%;
+        left:63%;
     }
 
 }
@@ -488,7 +483,7 @@ body{
     }
     #actionBtn{
     width:280px;
-    height:90px;
+    height:70px;
 
     border:none;
     background:none;
