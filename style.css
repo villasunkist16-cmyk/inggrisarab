@@ -118,26 +118,11 @@ body{
 }
 
 .question-box{
-    width:100%;
-    min-height:360px;
-
-    background-image:url("questionbox.png");
+    background-color:red;
+    background-image:url("./questionbox.png");
     background-repeat:no-repeat;
     background-position:center;
     background-size:100% 100%;
-
-    padding:
-        60px
-        45px
-        45px
-        45px;
-
-    border:none;
-    box-shadow:none;
-
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
 }
 
 #question{
