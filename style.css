@@ -118,19 +118,26 @@ body{
 }
 
 .question-box{
+    width:100%;
+    min-height:360px;
 
-    background:rgba(255,255,255,.55);
+    background-image:url("questionbox.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100% 100%;
 
-    backdrop-filter:blur(8px);
+    padding:
+        60px
+        45px
+        45px
+        45px;
 
-    border-radius:25px;
+    border:none;
+    box-shadow:none;
 
-    padding:25px;
-
-    margin-bottom:25px;
-
-    box-shadow:
-    0 10px 25px rgba(0,0,0,.12);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
 }
 
 #question{
@@ -253,7 +260,7 @@ body{
 
     position:relative;
 
-    width:160px;
+    width:120px;
 
     flex-shrink:0;
 }
@@ -368,7 +375,7 @@ body{
         font-size:36px;
     }
     #actionBtn{
-    width:180px;
+    width:120px;
     height:auto;
 
     border:none;
