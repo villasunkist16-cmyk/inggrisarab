@@ -298,8 +298,8 @@ body{
 }
 
 #actionBtn{
-    width:280px;
-    height:40px;
+    width:180px;
+    height:auto;
 
     border:none;
     background:none;
@@ -498,7 +498,7 @@ body{
         padding:18px 50px;
     }
 #actionBtn{
-    width:220px;
+    width:150px;
     height:auto;
     margin:0 auto;
     display:block;
@@ -551,8 +551,8 @@ body{
         font-size:26px;
     }
     #actionBtn{
-    width:280px;
-    height:40px;
+    width:150px;
+    height:auto;
 
     border:none;
     background:none;
