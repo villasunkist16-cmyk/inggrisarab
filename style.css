@@ -118,29 +118,49 @@ body{
 }
 
 .question-box{
-    background-color:red;
+    width:100%;
+
     background-image:url("./questionbox.png");
     background-repeat:no-repeat;
     background-position:center;
     background-size:100% 100%;
+
+    padding:25px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    margin-bottom:20px;
+}
+
+.question-box.has-image{
+    padding-top:25px;
+    padding-bottom:30px;
+}
+
+.question-box.no-image{
+    padding-top:50px;
+    padding-bottom:50px;
 }
 
 #question{
+    width:100%;
 
-    color:#1f2937;
+    text-align:center;
 
-    font-size:56px;
-
+    font-size:34px;
     line-height:1.25;
 
+    color:#1f2937;
     font-weight:600;
+
+    margin-bottom:15px;
 }
 
 .question-image{
-
     width:100%;
-
-    max-width:500px;
+    max-width:320px;
 
     display:block;
 
@@ -149,8 +169,7 @@ body{
     border-radius:20px;
 
     box-shadow:
-    0 6px 20px rgba(0,0,0,.2);
-
+        0 6px 20px rgba(0,0,0,.2);
 }
 
 /* ====================== */
@@ -419,10 +438,9 @@ body{
     }
 
     #question{
-
         text-align:center;
-
         font-size:34px;
+        line-height:1.2;            
     }
 
     .option-btn{
@@ -456,6 +474,13 @@ body{
 
         width:120px;
     }
+
+@media(max-width:768px){
+
+    .question-box{
+        padding:20px;
+    }
+}
 
     #score{
 
@@ -505,6 +530,15 @@ body{
         font-size:28px;
     }
 
+    .question-box{
+        padding:20px;
+    }
+
+    .question-image{
+        max-width:260px;
+        margin-bottom:15px;
+    }
+    
     .option-btn{
        font-size:24px;
 
