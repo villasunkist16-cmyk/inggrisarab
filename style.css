@@ -119,29 +119,27 @@ body{
 
 .question-box{
     width:100%;
-    min-height:420px;
-
     background-repeat:no-repeat;
     background-position:center;
     background-size:100% 100%;
-
-    padding:25px;
 
     display:flex;
     flex-direction:column;
     align-items:center;
 
-    margin-bottom:20px;
+    padding:25px;
 }
 
+/* Soal bergambar */
 .question-box.has-image{
-    padding-top:25px;
-    padding-bottom:30px;
+    min-height:360px;
+    justify-content:flex-start;
 }
 
+/* Soal tanpa gambar */
 .question-box.no-image{
-    padding-top:50px;
-    padding-bottom:50px;
+    min-height:180px;
+    justify-content:center;
 }
 
 #question{

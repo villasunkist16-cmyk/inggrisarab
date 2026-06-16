@@ -138,21 +138,21 @@ if(q.image){
     questionImage.src = q.image;
     questionImage.style.display = "block";
 
+    questionBox.classList.add("has-image");
+    questionBox.classList.remove("no-image");
+
     questionBox.style.backgroundImage =
         'url("questionbox-image.png")';
-
-    questionBox.style.minHeight =
-        "420px";
 
 }else{
 
     questionImage.style.display = "none";
 
+    questionBox.classList.add("no-image");
+    questionBox.classList.remove("has-image");
+
     questionBox.style.backgroundImage =
         'url("questionbox-text.png")';
-
-    questionBox.style.minHeight =
-        "200px";
 }
 
     optionsEl.innerHTML = "";
