@@ -120,7 +120,6 @@ body{
 .question-box{
     width:100%;
 
-    background-image:url("./questionbox.png");
     background-repeat:no-repeat;
     background-position:center;
     background-size:100% 100%;
