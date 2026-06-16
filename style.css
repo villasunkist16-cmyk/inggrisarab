@@ -132,13 +132,17 @@ body{
 
 /* Soal bergambar */
 .question-box.has-image{
-    min-height:360px;
+    min-height:300px;
     justify-content:flex-start;
 }
 
 /* Soal tanpa gambar */
 .question-box.no-image{
-    min-height:180px;
+    min-height:120px;
+    padding-top:20px;
+    padding-bottom:20px;
+
+    display:flex;
     justify-content:center;
 }
 
