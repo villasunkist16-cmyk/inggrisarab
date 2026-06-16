@@ -119,6 +119,7 @@ body{
 
 .question-box{
     width:100%;
+    min-height:420px;
 
     background-repeat:no-repeat;
     background-position:center;
@@ -473,8 +474,6 @@ body{
 
         width:120px;
     }
-
-@media(max-width:768px){
 
     .question-box{
         padding:20px;

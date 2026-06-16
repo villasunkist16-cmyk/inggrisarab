@@ -130,19 +130,29 @@ function showQuestion() {
 
     questionEl.textContent =
     q.question;
-    if(q.image){
+ const questionBox =
+document.querySelector(".question-box");
 
-    questionImage.src =
-    q.image;
+if(q.image){
 
-    questionImage.style.display =
-    "block";
+    questionImage.src = q.image;
+    questionImage.style.display = "block";
+
+    questionBox.style.backgroundImage =
+        'url("questionbox-image.png")';
+
+    questionBox.style.minHeight =
+        "420px";
 
 }else{
 
-    questionImage.style.display =
-    "none";
+    questionImage.style.display = "none";
 
+    questionBox.style.backgroundImage =
+        'url("questionbox-text.png")';
+
+    questionBox.style.minHeight =
+        "200px";
 }
 
     optionsEl.innerHTML = "";
