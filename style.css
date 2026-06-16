@@ -128,17 +128,18 @@ body{
     align-items:center;
 
     padding:25px;
+    margin-bottom:35px;
 }
 
 /* Soal bergambar */
 .question-box.has-image{
-    min-height:300px;
+    min-height:200px;
     justify-content:flex-start;
 }
 
 /* Soal tanpa gambar */
 .question-box.no-image{
-    min-height:120px;
+    min-height:100px;
     padding-top:20px;
     padding-bottom:20px;
 
@@ -479,6 +480,7 @@ body{
 
     .question-box{
         padding:20px;
+        margin-bottom:35px;
     }
 }
 
@@ -532,6 +534,7 @@ body{
 
     .question-box{
         padding:20px;
+        margin-bottom:35px;
     }
 
     .question-image{
